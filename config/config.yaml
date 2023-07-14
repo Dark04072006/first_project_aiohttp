@@ -1,0 +1,6 @@
+common:
+  host: localhost
+  port: 8080 # порт, на котором будет запускаться наше приложение
+postgres:
+  database_url: postgres://postgres:dark0407@localhost:5432/blog
+  require_ssl: false # стоит ли шифровать соединение с базой
